@@ -1,0 +1,37 @@
+<app-head></app-head>
+<div class="search-container">
+    <app-filter></app-filter>
+<app-search></app-search>
+
+</div>
+<app-subhead></app-subhead>
+
+<div *ngIf="products" >
+    <ul class="products" *ngFor="let product of products">
+
+  
+    <div>
+        <p class="date" >{{ product.approved }}</p>
+        <p class="time">{{ product.time }}</p>
+    </div>
+    <div class="product-name">
+        <img [src]="product.image" alt="none">
+        <p class="productName">{{ product.productName }}</p>
+    </div>
+    <div>
+        <p>{{ product.sku }}</p>
+    </div>
+    <div>
+        <p>{{ product.condition }}</p>
+        
+    </div>
+    <div>
+        <p class="price"><span>&#8358;</span>{{ product.cost }}</p>
+    </div>
+
+    <div>
+        <button class="status">{{ product.approve }}</button>
+    </div>
+
+</ul>
+</div>

@@ -1,0 +1,31 @@
+.header{
+border-bottom: .5px solid gainsboro ;
+
+
+}
+.active-link {
+    border-bottom: 2px solid black;
+    padding-bottom: 15px;
+  }
+
+li a{
+    text-decoration: none;
+    list-style: none;
+    font-weight: 900;
+    color: black;
+}
+
+.nav-links{
+    list-style: none;
+    display: flex;
+    gap: 4rem;
+      
+  }
+
+
+
+
+
+
+ 
+ 

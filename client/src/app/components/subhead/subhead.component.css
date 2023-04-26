@@ -1,0 +1,72 @@
+.sub-heading{
+    color: black;
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+    margin-left: 3.5rem;
+}
+
+.sku{
+    margin-left: 2rem;
+}
+
+
+  ::placeholder{
+    padding-left: 1rem;
+  }
+
+  .search-container {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+    margin-left: 43rem;
+  }
+  
+  .search-box {
+    width: 160px;
+    height: 6px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid gainsboro;
+  }
+  
+  .search-box > input {
+    /* flex: 1; */
+    height: 43px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .search-box > span{
+    color: gainsboro;
+    margin-left: -2rem;
+  }
+
+  .box{
+    width: 220px;
+    height: 6px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid gainsboro;
+    margin-left: 1.5rem;
+  }
+
+  .box > input{
+    flex: 1;
+    height: 43px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .box > span{
+    color: gainsboro;
+  }

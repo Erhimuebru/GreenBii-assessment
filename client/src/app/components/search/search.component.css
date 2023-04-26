@@ -1,0 +1,30 @@
+.box{
+    width: 220px;
+    height: 6px;
+    background-color: white;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    border: 2px solid gainsboro;
+    margin-left: 1.5rem;
+  }
+
+  .box > input{
+    flex: 1;
+    height: 43px;
+    border: none;
+    outline: none;
+    font-size: 15px;
+  }
+
+  .box > span{
+    color: gainsboro;
+  }
+
+
+  ::placeholder{
+    padding-left: 2rem;
+  }
+
+  
